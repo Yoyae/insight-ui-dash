@@ -1,7 +1,7 @@
 {
   "name": "insight-ui-monoeci",
   "description": "An open-source frontend for the Insight API. The Insight API provides you with a convenient, powerful and simple way to query and broadcast data on the Monoeci network and build your own services with it.",
-  "version": "0.4.3",
+  "version": "0.4.4",
   "repository": "git://github.com/yoyae/insight-ui-monoeci.git",
   "contributors": [
     {
@@ -23,6 +23,10 @@
     {
       "name": "Juan Ignacio Sosa Lopez",
       "email": "bechilandia@gmail.com"
+    },
+    {
+      "name": "Francois Gineste",
+      "email": "gingin.fr@gmail.com"
     }
   ],
   "bugs": {
