@@ -5,11 +5,13 @@ angular.module('insight').config(function($routeProvider) {
   $routeProvider.
     when('/block/:blockHash', {
       templateUrl: 'views/block.html',
-      title: 'Monoeci Block '
+      title: 'Monoeci Block ',
+	  activetab: 'block'
     }).
     when('/block-index/:blockHeight', {
       controller: 'BlocksController',
-      templateUrl: 'views/redirect.html'
+      templateUrl: 'views/redirect.html',
+	  activetab: 'block'
     }).
     when('/tx/send', {
       templateUrl: 'views/transaction_sendraw.html',
@@ -25,11 +27,13 @@ angular.module('insight').config(function($routeProvider) {
     }).
     when('/blocks', {
       templateUrl: 'views/block_list.html',
-      title: 'Monoeci Blocks solved Today'
+      title: 'Monoeci Blocks solved Today',
+	  activetab: 'block'
     }).
     when('/blocks-date/:blockDate/:startTimestamp?', {
       templateUrl: 'views/block_list.html',
-      title: 'Monoeci Blocks solved '
+      title: 'Monoeci Blocks solved ',
+	  activetab: 'block'
     }).
     when('/address/:addrStr', {
       templateUrl: 'views/address.html',
@@ -37,7 +41,8 @@ angular.module('insight').config(function($routeProvider) {
     }).
     when('/status', {
       templateUrl: 'views/status.html',
-      title: 'Status'
+      title: 'Status',
+	  activetab: 'status'
     }).
     when('/messages/verify', {
       templateUrl: 'views/messages_verify.html',
