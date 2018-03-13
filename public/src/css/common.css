@@ -272,7 +272,7 @@ margin-left: 0;
 }
 
 .block-id {
-  background-color: #373D42;
+  background-color: #090728;
   border: 3px solid #FFFFFF;
   margin: 0 auto;
   width: 165px;
@@ -389,11 +389,11 @@ margin-left: 0;
   font-size: 14px;
   font-weight: normal;
 }
-.progress-bar-info { background-color: #090728; }
+.progress-bar-info { background-color: #E5063E; }
 
 /* Set the fixed height of the footer here */
 #footer {
-  background-color: #373D42;
+  background-color: #090728;
   color: #fff;
   height: 51px;
   overflow: hidden;
@@ -564,7 +564,7 @@ margin-left: 0;
 .btn-copy.zeroclipboard-is-active .tooltip { opacity: 1; }
 
 .tx-id {
-  background-color: #373D42;
+  background-color: #090728;
   border: 3px solid #FFFFFF;
   margin: 0 auto;
   width: 165px;
@@ -666,12 +666,12 @@ margin-left: 0;
   padding: 1em 0;
   background-color: #e9e9e9;
   overflow: hidden;
-  color: #E5063E;
+  color: #333;
 }
 
 a.v_highlight_more {
   background-color: #cfe3f4;
-  color: #E5063E;
+  color: #333;
 }
 
 .secondary_navbar {
